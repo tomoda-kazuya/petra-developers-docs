@@ -16,17 +16,17 @@ hero:
 
 features:
   - icon: 
-      src: /assets/icon/Vue-icon.svg
+      src: /public/icon/Vue-icon.svg
     title: Frontend
     details: Petraのフロントエンドリポジトリのvue-frontについてのドキュメントをまとめています。
     link: Frontend/petra-frontend.md
   - icon: 
-      src: /assets/icon/Firebase-icon.svg
+      src: /public/icon/Firebase-icon.svg
     title: Backend
     details: Petraで使っているFirebase関連のナレッジをまとめています。
     link: /api-examples.md
   - icon: 
-      src: /assets/icon/Tips-icon.png
+      src: /public/icon/Tips-icon.png
     title: Tips
     details: Petra開発におけるTipsやその他ナレッジをまとめています。
     link: /api-examples.md
