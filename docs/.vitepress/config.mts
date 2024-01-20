@@ -2,7 +2,7 @@ import { defineConfig } from 'vitepress'
 
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
-  // base: 'petra-developers-docs',
+  base: 'petra-developers-docs',
   title: "Petra Developers Docs",
   description: "Petra開発用ドキュメントサイト",
   themeConfig: {
