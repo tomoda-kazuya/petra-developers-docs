@@ -4,31 +4,22 @@ layout: home
 
 hero:
   name: "Petra Developers Docs"
-  text: "Petra開発用Docs"
-  tagline: Petra開発者向けドキュメントサイトです。
+  text: "Petra開発者向け用ドキュメントサイトです。"
+  tagline: My great project tagline
   actions:
     - theme: brand
-      text: Getting Started
-      link: docs/introduction/petra
-    # - theme: alt
-    #   text: API Examples
-    #   link: /api-examples
+      text: Markdown Examples
+      link: /markdown-examples
+    - theme: alt
+      text: API Examples
+      link: /api-examples
 
 features:
-  - icon: 
-      src: docs/assets/icon/Vue-icon.svg
-    title: Frontend
-    details: Petraのフロントエンドリポジトリのvue-frontについてのドキュメントをまとめています。
-    link: docs/Frontend/petra-frontend.md
-  - icon: 
-      src: docs/assets/icon/Firebase-icon.svg
-    title: Backend
-    details: Petraで使っているFirebase関連のナレッジをまとめています。
-    link: /api-examples.md
-  - icon: 
-      src: docs/assets/icon/Tips-icon.png
-    title: Tips
-    details: Petra開発におけるTipsやその他ナレッジをまとめています。
-    link: /api-examples.md
+  - title: Feature A
+    details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
+  - title: Feature B
+    details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
+  - title: Feature C
+    details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
 ---
 

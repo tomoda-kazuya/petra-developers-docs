@@ -1,6 +1,0 @@
-# node_moduleは要らないので除外
-node_modules
-
-# vitepressのcacheは要らないので除外
-docs/.vitepress/cache
-docs/.vitepress/dist
