@@ -2,55 +2,24 @@ import { defineConfig } from 'vitepress'
 
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
-  base: 'petra-developers-docs',
   title: "Petra Developers Docs",
-  description: "Petra開発用ドキュメントサイト",
+  description: "Petra開発者向けドキュメントサイトです。",
   themeConfig: {
     // https://vitepress.dev/reference/default-theme-config
-    logo: '/assets/icon/Docs-icon.png',
     nav: [
       { text: 'Home', link: '/' },
-      { text: 'Frontend', link: 'Frontend/vue-front-test' },
-      { text: 'Backend', link: 'Backend/firebase-test.md' },
-      { text: 'Tips', link: 'Tips/tips-test.md' }
+      { text: 'Examples', link: '/markdown-examples' }
     ],
 
-    sidebar: {
-      '/introduction/': [
-        {
-          text: 'introduction',
-          items: [
-            { text: 'what is Petra?', link: 'introduction/petra' }
-          ]
-        }
-      ],
-      '/Frontend/': [
-        {
-          text: 'vue-front',
-          items: [
-            { text: 'Petra Frontend', link: 'Frontend/petra-frontend' },
-            { text: 'vue-front-test', link: 'Frontend/vue-front-test' }
-          ]
-        }
-      ],
-      '/Backend/': [
-        {
-          text: 'Backend',
-          items: [
-            { text: 'Firebase', link: 'Backend/firebase-test.md' }
-          ]
-        }
-      ],
-      '/Tips/': [
-        {
-          text: 'Tips',
-          items: [
-            { text: 'tips-test', link: 'Tips/tips-test.md' }
-          ]
-        }
-      ]
-    },
-    
+    sidebar: [
+      {
+        text: 'Examples',
+        items: [
+          { text: 'Markdown Examples', link: '/markdown-examples' },
+          { text: 'Runtime API Examples', link: '/api-examples' }
+        ]
+      }
+    ],
 
     socialLinks: [
       { icon: 'github', link: 'https://github.com/vuejs/vitepress' }
