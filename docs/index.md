@@ -4,15 +4,15 @@ layout: home
 
 hero:
   name: "Petra Developers Docs"
-  text: "Petra開発者向けドキュメントサイトです。"
-  tagline: My great project tagline
+  text: "Petra開発用Docs"
+  tagline: Petra開発者向けドキュメントサイトです。
   actions:
     - theme: brand
-      text: Markdown Examples
-      link: /markdown-examples
-    - theme: alt
-      text: API Examples
-      link: /api-examples
+      text: Getting Started
+      link: introduction/petra
+    # - theme: alt
+    #   text: API Examples
+    #   link: /api-examples
 
 features:
   - icon: 
