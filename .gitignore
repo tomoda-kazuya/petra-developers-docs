@@ -4,3 +4,5 @@ node_modules
 # vitepressのcacheは要らないので除外
 docs/.vitepress/cache
 docs/.vitepress/dist
+
+.DS_Store
