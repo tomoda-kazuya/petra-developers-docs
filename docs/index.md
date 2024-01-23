@@ -29,6 +29,6 @@ features:
       src: /icon/Tips-icon.png
     title: Tips
     details: Petra開発におけるTipsやその他ナレッジをまとめています。
-    link: /api-examples.md
+    link: Tips/tips-overview.md
 ---
 

@@ -45,7 +45,8 @@ export default defineConfig({
         {
           text: 'Tips',
           items: [
-            { text: 'tips-test', link: 'Tips/tips-test.md' }
+            { text: '概要', link: 'Tips/tips-overview.md' },
+            { text: 'Vue.js基礎', link: 'Tips/vue-basic.md' }
           ]
         }
       ]
