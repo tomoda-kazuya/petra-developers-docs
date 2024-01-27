@@ -12,7 +12,7 @@ export default defineConfig({
       { text: 'Home', link: '/' },
       { text: 'Frontend', link: 'Frontend/vue-front-test' },
       { text: 'Backend', link: 'Backend/firebase-test.md' },
-      { text: 'Tips', link: 'Tips/tips-test.md' }
+      { text: 'Tips', link: 'Tips/tips-overview.md' }
     ],
 
     sidebar: {
@@ -46,7 +46,8 @@ export default defineConfig({
           text: 'Tips',
           items: [
             { text: '概要', link: 'Tips/tips-overview.md' },
-            { text: 'Vue.js基礎', link: 'Tips/vue-basic.md' }
+            { text: 'Vue.js基礎', link: 'Tips/vue-basic.md' },
+            { text: '単一ファイルコンポーネント', link: 'Tips/sfc.md' }
           ]
         }
       ]
