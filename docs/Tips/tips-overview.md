@@ -1,3 +1,9 @@
+---
+next:
+  text: 'Vue.js基礎'
+  link: '/Tips/vue-basic.md'
+---
+
 # Tips
 
 ## Tipsとは

@@ -1,4 +1,20 @@
+---
+prev:
+  text: '概要'
+  link: '/Tips/tips-overview.md'
+next:
+  text: '単一ファイルコンポーネント'
+  link: '/Tips/sfc.md'
+---
+
 #  Vue.js基礎
+
+---
+
+<!-- 更新バージョン -->
+<Badge type="info" text="v1.0.0" />
+<!-- ドキュメントのカテゴリ -->
+<Badge type="tip" text="Vue" />
 
 ---
 
