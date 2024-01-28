@@ -1,4 +1,21 @@
+---
+prev:
+  text: 'Vue.js基礎'
+  link: '/Tips/vue-basic.md'
+# next:
+#   text: 'タイトル'
+#   link: '/Tips/ファイル名'
+---
+
 # 単一ファイルコンポーネント(Single File Components)
+
+---
+
+<!-- 更新バージョン -->
+<Badge type="info" text="v1.0.0" />
+<!-- ドキュメントのカテゴリ -->
+<Badge type="tip" text="Vue" />
+
 ---
 
 [[toc]]

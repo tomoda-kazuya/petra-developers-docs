@@ -4,15 +4,21 @@ import { defineConfig } from 'vitepress'
 export default defineConfig({
   base: '/petra-developers-docs/',
   title: "Petra Developers Docs",
+  head: [['link', { rel: 'icon', href: 'favicon.png' }]],
+  lastUpdated: true,
   description: "Petra開発用ドキュメントサイト",
   themeConfig: {
+    search: {
+      provider: 'local'
+    },
     // https://vitepress.dev/reference/default-theme-config
     logo: '/icon/Docs-icon.png',
     nav: [
       { text: 'Home', link: '/' },
       { text: 'Frontend', link: 'Frontend/vue-front-test' },
       { text: 'Backend', link: 'Backend/firebase-test.md' },
-      { text: 'Tips', link: 'Tips/tips-overview.md' }
+      { text: 'Tips', link: 'Tips/tips-overview.md' },
+      { text: 'Developers', link: 'developers.md' }
     ],
 
     sidebar: {
