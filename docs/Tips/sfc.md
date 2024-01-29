@@ -66,7 +66,7 @@ scriptタグはファイル内に最大で`１つ`です。<br>
 他のコンポーネントをインポートするには`import構文`を利用できます。
 ```vue
 <script>
-import MyPage from 'my-page'
+import MyPage from 'my-page'// [!code focus]
 </script>
 ```
 
@@ -139,13 +139,13 @@ SFC は以下の場合、コンポーネントの名前をファイル名から`
 `lang` はどのブロックにも適用できます - 例えば、styleブロック で `Sass` を使用したり、templateブロック で `Pug` を使用できます:
 
 ```vue
-<template lang="pug">
+<template lang="pug">// [!code focus]
 p {{ msg }}
 </template>
-``` 
+```
 
 ```vue
-<style lang="scss">
+<style lang="scss"> // [!code focus]
   $primary-color: #333;
   body {
     color: $primary-color;
