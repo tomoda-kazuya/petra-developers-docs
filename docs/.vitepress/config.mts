@@ -15,11 +15,15 @@ export default defineConfig({
     logo: '/icon/Docs-icon.png',
     nav: [
       { text: 'Home', link: '/' },
-      { text: 'Frontend', link: 'Frontend/vue-front-test' },
+      { text: 'Frontend', link: 'Frontend/petra-frontend.md' },
       { text: 'Backend', link: 'Backend/firebase-test.md' },
       { text: 'Tips', link: 'Tips/tips-overview.md' },
       { text: 'Developers', link: 'developers.md' }
     ],
+
+    footer: {
+      copyright: 'Copyright © 2024-present Kazuya Tomoda'
+    },
 
     sidebar: {
       '/introduction/': [
@@ -32,10 +36,13 @@ export default defineConfig({
       ],
       '/Frontend/': [
         {
-          text: 'vue-front',
+          text: 'Frontend',
           items: [
-            { text: 'Petra Frontend', link: 'Frontend/petra-frontend' },
-            { text: 'vue-front-test', link: 'Frontend/vue-front-test' }
+            { text: 'フロントエンドについて', link: 'Frontend/petra-frontend' },
+            { text: 'コーディングガイドライン-SCSS', link: 'Frontend/coding-guideline-scss' },
+            { text: 'Gitフローとブランチ運用について', link: 'Frontend/git-flow' },
+            { text: '実装時のセルフチェックリスト', link: 'Frontend/vue-front-checklist' },
+            // { text: 'vue-front-test', link: 'Frontend/vue-front-test' }
           ]
         }
       ],
@@ -58,7 +65,6 @@ export default defineConfig({
         }
       ]
     },
-    
 
     socialLinks: [
       { icon: 'github', link: 'https://github.com/tomoda-kazuya/petra-developers-docs' }
