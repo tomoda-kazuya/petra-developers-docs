@@ -12,7 +12,7 @@ next:
 ---
 
 <!-- 更新バージョン -->
-<Badge type="info" text="v1.0.0" />
+<Badge type="info" text="v1.0.1" />
 <!-- ドキュメントのカテゴリ -->
 <Badge type="tip" text="Frontend" />
 
@@ -31,18 +31,78 @@ SSRはやっていません。
 ※将来的にnodeのバージョンを上げる可能性があるため、nodebrewやnvm等のnodeバージョン管理ツールを使用してのインストール推奨。<br>
 ※Windows環境では一部手順が異なります。<br>
 
-1. vue-frontのプロジェクトをクローン<br>
-   vue-frontのリポジトリは[こちら](https://github.com/tomoda-kazuya/vue-front)
+:::info Petra開発用リポジトリ
+vue-frontのリポジトリは[こちら](https://github.com/tomoda-kazuya/vue-front)
+:::
+1. vue-frontのリポジトリを`fork`<br>
+   1.1 Githubのvue~frontリポジトリページのforkをクリック
+   ![fork-process-1](/image/petra-frontend/fork-process-1.png)<br>
 
-2. /vue-frontディレクトリで以下コマンド実施（※初回のみ）
+   1.2 自分のGitHubアカウントを設定して、`Create Fork`ボタンを押下
+   ![fork-process-2](/image/petra-frontend/fork-process-2.png)<br>
+
+::: warning
+GitHubの画面は変わる可能性があるため、<br>上記画像と画面が異なる場合はForkの手順を調べて対応してください。
+:::
+<br>
+
+2. fork先のvue-frontプロジェクトを`clone`<br>
+
+3. fork元のリポジトリを`upstream`に設定<br>
+
+   3.1 cloneしたプロジェクト直下で以下コマンドを実行
+   ``` shell
+   git remote -v
+   ```
+
+   実行結果
+   ```shell
+   origin	https://github.com/{自分のGitHubのアカウント名}/vue-front.git (fetch)
+   origin	https://github.com/{自分のGitHubのアカウント名}/vue-front.git (push)
+   ```
+
+   <br>
+
+   3.2 実行結果が確認できたら、以下コマンドを実行
+   ```shell
+   git remote add upstream https://github.com/tomoda-kazuya/vue-front.git 
+   ```
+
+   <br>
+
+   3.3 再度、3.1で実行したコマンドを実行し、<br>正しくリモートリポジトリの新規接続の作成がされているかを確認<br>
+
+   実行結果
+   ```shell
+   origin	https://github.com/{自分のGitHubのアカウント名}/vue-front.git (fetch)
+   origin	https://github.com/{自分のGitHubのアカウント名}/vue-front.git (push)
+   upstream	https://github.com/tomoda-kazuya/vue-front.git (fetch)
+   upstream	https://github.com/tomoda-kazuya/vue-front.git (push)
+   ```
+   3.4 upstreamにfork元のリポジトリが設定されていればOK<br>
+
+::: tip 3. で使用したGitコマンドの説明
+`git remote -v`・・・リモート接続の一覧を表示するコマンド<br>
+`git remote add <name> <url>`・・・リモート リポジトリに対する新規接続を作成するコマンド
+:::
+
+<br>
+
+4. /vue-frontディレクトリで以下コマンド実施（※初回のみ）
    ```shell
    npm install
    ```
-3. 以下コマンドでvue-frontを起動
+
+<br>
+
+5. 以下コマンドでvue-frontを起動
    ```shell
    npm run dev
    ```
-~~4. stub-serverを起動~~
+
+<br>
+
+~~6. stub-serverを起動~~
 <br>※Firebaseを利用するため調整中
 
 ::: tip stub-serverについてざっくりと
