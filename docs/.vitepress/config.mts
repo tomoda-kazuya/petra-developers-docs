@@ -16,7 +16,7 @@ export default defineConfig({
     nav: [
       { text: 'Home', link: '/' },
       { text: 'Frontend', link: 'Frontend/petra-frontend.md' },
-      { text: 'Backend', link: 'Backend/firebase-test.md' },
+      { text: 'Backend', link: 'Backend/firebase-setup.md' },
       { text: 'Tips', link: 'Tips/tips-overview.md' },
       { text: 'Developers', link: 'developers.md' }
     ],
@@ -50,7 +50,8 @@ export default defineConfig({
         {
           text: 'Backend',
           items: [
-            { text: 'Firebase', link: 'Backend/firebase-test.md' }
+            { text: 'Firebase 環境構築', link: 'Backend/firebase-setup.md' },
+            { text: 'Firebase WEBアプリ連携', link: 'Backend/firebase-webapp.md' },
           ]
         }
       ],
