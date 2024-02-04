@@ -50,8 +50,8 @@ export default defineConfig({
         {
           text: 'Backend',
           items: [
-            { text: 'Firebase Setup', link: 'Backend/firebase-setup.md' },
-            { text: 'Firebase Vueアプリ連携', link: 'Backend/firebase-webapp.md' },
+            { text: 'Firebase 環境構築', link: 'Backend/firebase-setup.md' },
+            { text: 'Firebase WEBアプリ連携', link: 'Backend/firebase-webapp.md' },
           ]
         }
       ],
