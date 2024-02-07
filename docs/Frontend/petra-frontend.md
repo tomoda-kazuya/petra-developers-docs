@@ -1,10 +1,10 @@
 ---
 # prev:
-#   text: '概要'
-#   link: '/Frontend/tips-overview.md'
+#   text: ''
+#   link: ''
 next:
-  text: 'コーディングガイドライン-SCSS'
-  link: '/Frontend/coding-guideline-scss.md'
+  text: 'Gitフローとブランチ運用について'
+  link: '/Frontend/git-flow.md'
 ---
 
 # フロントエンドについて

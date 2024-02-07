@@ -1,13 +1,13 @@
 ---
 prev:
-  text: 'フロントエンドについて'
-  link: '/Frontend/petra-frontend.md'
+  text: 'vue-frontにおける命名規則'
+  link: '/Frontend/vue-front-naming-rule.md'
 next:
-  text: 'Gitフローとブランチ運用について'
-  link: '/Frontend/git-flow.md'
+  text: ' vue-front実装チェックリスト'
+  link: '/Frontend/vue-front-checklist.md'
 ---
 
-# コーディングガイドライン-SCSS
+# コーディング規約-SCSS
 
 ---
 
