@@ -39,10 +39,10 @@ export default defineConfig({
           text: 'Frontend',
           items: [
             { text: 'フロントエンドについて', link: 'Frontend/petra-frontend' },
-            { text: 'コーディングガイドライン-SCSS', link: 'Frontend/coding-guideline-scss' },
-            { text: 'Gitフローとブランチ運用について', link: 'Frontend/git-flow' },
+            { text: 'Gitフローとブランチ運用', link: 'Frontend/git-flow' },
+            { text: 'vue-frontにおける命名規則', link: '/Frontend/vue-front-naming-rule.md' },
+            { text: 'コーディング規約-SCSS', link: 'Frontend/coding-guideline-scss' },
             { text: '実装時のセルフチェックリスト', link: 'Frontend/vue-front-checklist' },
-            // { text: 'vue-front-test', link: 'Frontend/vue-front-test' }
           ]
         }
       ],
