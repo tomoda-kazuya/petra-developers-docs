@@ -1,10 +1,10 @@
 ---
 prev:
-  text: 'Gitフローとブランチ運用について'
-  link: '/Frontend/git-flow.md'
+  text: 'コーディング規約-SCSS'
+  link: '/Frontend/coding-guideline-scss.md'
 next: false
-#   text: ''
-#   link: ''
+  # text: 'vue-frontにおける命名規則'
+  # link: '/Frontend/vue-front-naming-rule.md'
 ---
 
 # 実装時のセルフチェックリスト
