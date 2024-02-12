@@ -23,7 +23,7 @@ next: false
 ## firebase-Authentication とは
 
 「Firebase Authentication」はユーザー認証機能を提供し、ユーザ情報をクラウドで保存してくれる、Google 運営のサービスです。<br>
-Firebase Authentication を利用することで、アプリケーションにユーザー認証機能を独自で実装することなく、ユーザー認証機能を提供できるようになります。<br>。<br>
+Firebase Authentication を利用することで、アプリケーションにユーザー認証機能を独自で実装することなく、ユーザー認証機能を提供できるようになります。<br><br>
 
 認証方法には、主に以下が用意されています。<br>
 
