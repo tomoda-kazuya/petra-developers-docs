@@ -37,11 +37,15 @@ Firebase Hosting は簡単にデプロイすることが可能です。<br>
 
 3. Firebase へのログイン
 
-以下実行すると、 CLI の使用状況とエラー報告情報を収集できるようにするか聞かれるので、「Y」を選択する。<br>
+以下を実行する。<br>
 
-```js
-> firebase login
+```
+firebase login
+```
 
+CLI の使用状況とエラー報告情報を収集できるようにするか聞かれるので、「Y」を選択する。<br>
+
+```
 i  Firebase optionally collects CLI usage and error reporting information to help improve our products. Data is collected in accordance with Google's privacy policy (https://policies.google.com/privacy) and is not used to identify you.
 
 ? Allow Firebase to collect CLI usage and error reporting information? (Y/n)
@@ -55,7 +59,7 @@ Firebase のプロジェクトを作る Google アカウントを選択します
 ![Firebase CLI Install](/image/firebase-hosting/firebaseCliRequest.png)<br>
 ![Firebase CLI Install](/image/firebase-hosting/firebaseCliSuccess.png)<br>
 
-コンソールにも、下記のような Success!の文言が出ているかと思います。<br>
+コンソールにも、下記のような `Success!`の文言が出ているかと思います。<br>
 
 ```
 Visit this URL on this device to log in:
@@ -68,11 +72,15 @@ Waiting for authentication...
 4. Firebase の初期化
 
 プロジェクトを Firebase プロジェクトとして、初期化しましょう！<br>
-コンソールに firebase init と打つと、ロジェクトを初期化していいか聞かれます。（勿論 yes で！）<br>
+以下コマンドを実行。
 
 ```
-> firebase init
+firebase init
+```
 
+プロジェクトを初期化していいか聞かれます。（勿論 yes で！）<br>
+
+```
      ######## #### ########  ######## ########     ###     ######  ########
      ##        ##  ##     ## ##       ##     ##  ##   ##  ##       ##
      ######    ##  ########  ######   ########  #########  ######  ######
@@ -88,7 +96,7 @@ You're about to initialize a Firebase project in this directory:
 
 どの Firebase CLI 機能を設定するか選択します。<br>
 今回は以下を選択してください。<br>
-スペースキーで複数選択し、Enter で次へ<br>
+スペースキーで複数選択し、Enter キー押下で次へ<br>
 
 - Firestore
 - Hosting
@@ -106,7 +114,7 @@ You're about to initialize a Firebase project in this directory:
 ```
 
 対象の Firebase のサイト側で作成したプロジェクトを選択します。<br>
-既存のプロジェクトを使うので「Use an existing project」を選択。<br>
+既存のプロジェクトを使うので「`Use an existing project`」を選択。<br>
 
 ```
 === Project Setup
@@ -122,7 +130,7 @@ but for now we'll just set up a default project.
   Don't set up a default project
 ```
 
-Firebase のサイト側で作成した「Petra」を選んで下さい。<br>
+Firebase のサイト側で作成した「`Petra`」を選んで下さい。<br>
 
 ```
 ? Please select an option: Use an existing project
@@ -134,7 +142,7 @@ Firebase のサイト側で作成した「Petra」を選んで下さい。<br>
 (Move up and down to reveal more choices)
 ```
 
-デプロイするディレクトリを選択します。デフォルトの public ディレクトリを使用するので、そのまま Enter。<br>
+デプロイするディレクトリを選択します。デフォルトの public ディレクトリを使用するので、そのまま Enter キー押下。<br>
 
 ```
 === Hosting Setup
@@ -147,14 +155,14 @@ have a build process for your assets, use your build's output directory.
 ```
 
 SPA として設定するかを選択できます。<br>
-何かしらフレームワークを使っていれば別ですが、基本は No でいいと思います。<br>
+何かしらフレームワークを使っていれば別ですが、基本は `No` でいいと思います。<br>
 
 ```
 ? Configure as a single-page app (rewrite all urls to /index.html)? (y/N)
 ```
 
 既に存在している index.html を上書きするか選択できます。<br>
-当然 No です。上書き、ダメ、ゼッタイ。<br>
+当然 `No` です。上書き、ダメ、ゼッタイ。<br>
 
 ```
 +  Wrote public/404.html
@@ -181,7 +189,12 @@ public フォルダの中の index.html がデプロイされるため、必要�
 
 ```
 $ firebase deploy
+```
 
+以下のように表示されれば、デプロイ成功です！<br>
+Hosting URL にアクセスして、実際の画面を確認してください。<br>
+
+```
 === Deploying to 'landing-page-temp-1223'...
 
 i  deploying hosting
@@ -199,8 +212,8 @@ Project Console: https://console.firebase.google.com/project/landing-page-temp-1
 Hosting URL: https://landing-page-temp-1223.web.app
 ```
 
-以下のように作成したウェブサイトが表示されれば、デプロイ成功です！<br>
-
-![Firebase CLI Install](/image/firebase-hosting/firebaseComlete.png)<br>
-
 3. デプロイをやめる
+
+```
+firebase hosting:disable
+```
