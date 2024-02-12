@@ -52,6 +52,8 @@ export default defineConfig({
           items: [
             { text: 'Firebase 環境構築', link: 'Backend/firebase-setup.md' },
             { text: 'Firebase WEBアプリ連携', link: 'Backend/firebase-webapp.md' },
+            { text: 'Firebase Hosting 設定', link: 'Backend/firebase-hosting.md' },
+            { text: 'Firebase 認証機能設定', link: 'Backend/firebase-Authentication.md' }
           ]
         }
       ],
