@@ -4,7 +4,7 @@ prev:
   link: "/Backend/firebase-webapp.md"
 next:
   text: "認証機能の設定"
-  link: "/Backend/firebase-Authentication.md"
+  link: "/Backend/firebase-authentication.md"
 ---
 
 # Firebase Hosting
