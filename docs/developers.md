@@ -19,12 +19,12 @@ const coreMembers = [
     ]
   },
   {
-    avatar: 'https://placehold.jp/150x150.png',
+    avatar: 'https://github.com/hayashi-yu.png',
     name: 'Yuya Hayashi',
     title: 'Developer',
-    // links: [
-    //   { icon: 'github', link: 'https://github.com/tomoda-kazuya' }
-    // ]
+    links: [
+      { icon: 'github', link: 'https://github.com/hayashi-yu' }
+    ]
   },
   {
     avatar: 'https://placehold.jp/150x150.png',
@@ -35,20 +35,28 @@ const coreMembers = [
     // ]
   },
   {
-    avatar: 'https://placehold.jp/150x150.png',
+    avatar: 'https://github.com/HiroakiMuramatsu.png',
     name: 'Hiroaki Muramatsu',
     title: 'Developer',
-    // links: [
-    //   { icon: 'github', link: 'https://github.com/tomoda-kazuya' }
-    // ]
+    links: [
+      { icon: 'github', link: 'https://github.com/HiroakiMuramatsu' }
+    ]
   },
   {
-    avatar: 'https://placehold.jp/150x150.png',
+    avatar: 'https://github.com/Araiyu.png',
     name: 'Yusuke Arai',
     title: 'Developer',
-    // links: [
-    //   { icon: 'github', link: 'https://github.com/tomoda-kazuya' }
-    // ]
+    links: [
+      { icon: 'github', link: 'https://github.com/Araiyu' }
+    ]
+  },
+  {
+    avatar: 'https://github.com/OnoderaYuki.png',
+    name: 'Yuki Onodera',
+    title: 'Developer',
+    links: [
+      { icon: 'github', link: 'https://github.com/OnoderaYuki' }
+    ]
   },
 ]
 const partners = [
